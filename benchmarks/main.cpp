@@ -68,6 +68,8 @@ struct BenckmarkOptions {
       help = true;
       return;
     }
+
+    cmd.get_cmd_line_argument("config_file", config_file);
   }
 
   /// Prints the usage statement.
